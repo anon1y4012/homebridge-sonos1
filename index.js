@@ -192,7 +192,7 @@ SonosAccessory.prototype.search = function () {
       }
       this.log("Found a playable device at %s for room '%s'", host, roomName);
       this.device = device;
-      search.socket.close();
+      //search.socket.close();
     }.bind(this));
   }.bind(this));
 }
